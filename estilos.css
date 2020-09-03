@@ -1,0 +1,109 @@
+body{
+	background-image: url(fondo.jpg);
+}
+.p1{
+	position: absolute;
+	top:6%;
+	left: 450px;
+	font-family: Stencil;
+	font-size: 270%; 
+	color: #8A59E4;
+	animation-name: tecno;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes tecno{
+	33%{color: #8A59E4;}
+	66%{color: #FA799A;}
+	99%{color: #4ED6C0;}
+}
+.p2{
+	position: absolute;
+	top:6%;
+	left: 600px;
+	font-family: Stencil;
+	font-size: 270%; 
+	color: #4ED6C0;
+	animation-name: tecn;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes tecn{
+	33%{color: #4ED6C0;}
+	66%{color: #8A59E4;}
+	99%{color: #FA799A;}
+}
+.p3{
+	position: absolute;
+	top:6%;
+	left: 780px;
+	font-family: Stencil;
+	font-size: 270%; 
+	color: #FA799A;
+	animation-name: tec;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes tec{
+	33%{color: #FA799A;}
+	66%{color: #4ED6C0;}
+	99%{color: #8A59E4;}
+}
+.cuadro{
+	position: absolute;
+	top:20%;
+	left: 280px;
+	width: 680px;
+	height: 410px;
+	background-color: #EDEFF6;
+	border-style: double;
+	border-color: #A5A5AA;
+	border-width: 9px;
+}
+.bot1{
+	position: absolute;
+	top: 22%;
+	left: 400px;
+	width: 90px;
+	height: 90px;
+	background-image: url(fondo.jpg);
+	border-radius: 50%;
+	border-style: double;
+	border-color: #A5A5AA;
+	border-width: 5px; 
+}
+.bot1:active .m1{
+	position: absolute;
+	top: 105px;
+	background-image: url(imagen1);
+	width: 500px;
+	height: 280px;
+	left: -28px;
+	border-style: dotted;
+	border-color: #A45EE9;
+	border-width: 5px;
+}
+.bot2{
+	position: absolute;
+	top: 22%;
+	left: 740px;
+	width: 90px;
+	height: 90px;
+	background-image: url(fondo.jpg);
+	border-radius: 50%;
+	border-style: double;
+	border-color: #A5A5AA;
+	border-width: 5px; 
+}
+.bot2:active .m2{
+	position: absolute;
+	top: 105px;
+	background-image: url(imagen2);
+	width: 500px;
+	height: 280px;
+	left: -377px;
+	border-style: dotted;
+	border-color: #A45EE9;
+	border-width: 5px;
+}
+
